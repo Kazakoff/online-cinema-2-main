@@ -1,0 +1,1 @@
+export const getUid = state => state.firebase.auth.uid

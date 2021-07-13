@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component should render Footer component 1`] = `
+"<footer className=\\"footer\\">
+  <p>
+    <img src=\\"onlineCinema.png\\" alt=\\"\\" style={{...}} />
+    <span>
+      Online
+    </span>
+    Cinema
+  </p>
+</footer>"
+`;

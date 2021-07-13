@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageNavigation component should render PageNavigation component 1`] = `
+"<div className=\\"d-flex align-items-center justify-content-center\\">
+  <button className=\\"btn whiteBtn\\" style={{...}} onClick={[undefined]}>
+    &lt;
+  </button>
+  <button className=\\"btn whiteBtn\\" style={{...}} onClick={[undefined]}>
+    &gt;
+  </button>
+</div>"
+`;
+
+exports[`SignIn component should render SignIn component 1`] = `
+"<div className=\\"d-flex align-items-center justify-content-center\\">
+  <button className=\\"btn whiteBtn\\" style={{...}} onClick={[undefined]}>
+    &lt;
+  </button>
+  <button className=\\"btn whiteBtn\\" style={{...}} onClick={[undefined]}>
+    &gt;
+  </button>
+</div>"
+`;

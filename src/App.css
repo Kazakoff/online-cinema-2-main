@@ -1,0 +1,159 @@
+.app {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 500;
+    background-color: rgb(29, 27, 28);  
+}
+.content {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 15px;
+    min-height: calc(100vh - 181.6px);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* button styles */
+.btn {
+    margin: 0;
+    list-style: none;
+    color: #000000;
+    text-decoration: none;  
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 7px 10px;
+    border-radius: 4px;
+    background-color: #f3c017;
+    border: 0;
+    outline: none;  
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.btn:focus{
+    border: 0;
+    outline: none;
+    box-shadow: none;
+}
+.whiteBtn{
+    background-color: white;
+    opacity: 0.8;
+}
+.whiteBtn:hover{
+    opacity: 1;
+}
+.w100{
+    width:100%;
+}
+
+
+
+/* input styles */
+.form-control{
+    background-color: #ffffff;
+    border-color: #0e0e0f;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: #0e0e0f;
+}
+
+
+
+/* table styles */
+.table{
+    background-color: #443f3f;
+    color: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    }
+.table>tbody {
+    vertical-align: middle;
+}
+.table img{
+    width: 60px;
+}
+td{
+    border-bottom: solid rgb(29, 27, 28); 
+}
+@media only screen and (max-width: 1200px) {
+    /* Force table to not be like tables anymore */
+	#no-more-tables table, 
+	#no-more-tables thead, 
+	#no-more-tables tbody, 
+	#no-more-tables th, 
+	#no-more-tables td, 
+	#no-more-tables tr { 
+		display: block; 
+	}
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	#no-more-tables td { 
+		/* Behave  like a 'row' */
+		border: none;
+		border-bottom: 1px solid rgb(29, 27, 28); 
+		position: relative;
+		padding-left: 50%; 
+		white-space: normal;
+		text-align:left;
+    }
+    
+    #no-more-tables td.tdEnd {
+        border-bottom: 7px solid rgb(29, 27, 28); 
+    }
+    #no-more-tables td.tdFullWidth {
+		padding-left: 0;
+    }
+    
+
+	#no-more-tables td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 100%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+		text-align:left;
+		font-weight: bold;
+	}
+	/*Label the data*/
+	#no-more-tables td:before { content: attr(data-title); }
+}
+
+
+
+/* NavLink styles */
+.navlink{
+    color: #ffffff;
+    text-decoration: none;  
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    padding: 7px 0;
+    padding-right: 10px;
+}
+.navlink:hover{
+    opacity: 0.8;
+    color: #ffffff;
+}
+.navlink.active{
+    color: #f3c017;
+}
+.navlink.active:hover{
+    opacity: 1;
+    cursor: default;
+} 
+
+
+
+

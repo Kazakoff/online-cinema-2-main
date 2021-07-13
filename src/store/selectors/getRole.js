@@ -1,0 +1,1 @@
+export const getRole = state => state.firebase.profile.role

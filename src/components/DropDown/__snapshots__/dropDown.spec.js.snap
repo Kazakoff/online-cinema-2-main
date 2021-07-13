@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DropDown component should render DropDown component 1`] = `
+"<div className=\\"btn-group dropdown\\" style={{...}}>
+  <button type=\\"button\\" className=\\"btn whiteBtn dropdown-toggle\\" data-toggle=\\"dropdown\\" aria-haspopup=\\"true\\" aria-expanded=\\"false\\">
+    some label
+  </button>
+  <div className=\\"dropdown-menu\\" style={{...}}>
+    <div style={{...}}>
+      <p>
+        1
+      </p>
+      <p>
+        2
+      </p>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`ErrorMessage component should render ErrorMessage component 1`] = `
+"<div className=\\"btn-group dropdown\\" style={{...}}>
+  <button type=\\"button\\" className=\\"btn whiteBtn dropdown-toggle\\" data-toggle=\\"dropdown\\" aria-haspopup=\\"true\\" aria-expanded=\\"false\\">
+    some label
+  </button>
+  <div className=\\"dropdown-menu\\" style={{...}}>
+    <div style={{...}}>
+      <p>
+        1
+      </p>
+      <p>
+        2
+      </p>
+    </div>
+  </div>
+</div>"
+`;

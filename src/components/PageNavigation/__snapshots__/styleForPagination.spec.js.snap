@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyleForPagination component should render StyleForPagination component 1`] = `"<div className=\\"d-flex justify-content-center\\" style={{...}} />"`;

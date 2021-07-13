@@ -1,0 +1,13 @@
+.logo a { 
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 1;
+    color: #ffffff;
+    text-decoration: none;
+} 
+.logo span{
+    color: #f3c017;
+}
+.logo a:hover {
+    opacity: 0.8;
+}

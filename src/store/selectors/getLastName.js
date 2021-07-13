@@ -1,0 +1,1 @@
+export const getLastName = state => state.firebase.profile.lastName

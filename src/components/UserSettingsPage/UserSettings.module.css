@@ -1,0 +1,25 @@
+.body{
+    max-width: 500px;
+    width: 500px;
+    padding: 15px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    color: #f3c017;
+    font-weight: 900;
+    font-size: 40px; 
+}
+.label{
+    padding-bottom: 10px;
+}
+.saveBtn{
+    margin-top: 6px;
+}
+.removeBtn{
+    background-color: red;
+    opacity: 0.2;
+}
+

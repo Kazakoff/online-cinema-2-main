@@ -1,0 +1,17 @@
+.body{
+    max-width: 500px;
+    width: 500px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    color: #f3c017;
+    font-weight: 900;
+    font-size: 40px; 
+}
+.label{
+    padding-bottom: 10px;
+}
+

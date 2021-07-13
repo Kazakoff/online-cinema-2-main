@@ -1,0 +1,1 @@
+export const getRemoveRequestStatus = state => state.firebase.profile.removeRequest

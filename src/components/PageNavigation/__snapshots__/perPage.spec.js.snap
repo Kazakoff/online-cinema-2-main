@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PerPage component should render PerPage component 1`] = `
+"<DropDown style={{...}} label={[undefined]}>
+  <div className=\\"d-flex justify-content-center w100\\" style={{...}} onClick={[Function: onClick]}>
+    1
+  </div>
+  <div className=\\"d-flex justify-content-center w100\\" style={{...}} onClick={[Function: onClick]}>
+    2
+  </div>
+  <div className=\\"d-flex justify-content-center w100\\" style={{...}} onClick={[Function: onClick]}>
+    3
+  </div>
+</DropDown>"
+`;
